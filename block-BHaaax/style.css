@@ -1,0 +1,41 @@
+
+body {
+    line-height: 3.5;
+    text-align: left;
+    padding: 15px;
+}
+.container1 {
+    text-align: left;
+    margin: 15px;
+    font-size: 28px;
+}
+.container {
+    text-align: left;
+    
+}
+.column1 {
+    text-align: top;
+}
+.para {
+    text-align: left;
+    font-size: 20px;
+
+}
+.column2 {
+    text-align: right;
+}
+.nav{
+    text-align: right;
+    margin-right: 20px;
+}
+    
+
+
+    
+
+
+
+
+    
+
+
