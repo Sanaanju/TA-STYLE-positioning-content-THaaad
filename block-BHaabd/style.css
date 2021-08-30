@@ -1,0 +1,60 @@
+*,
+*::before,
+::after {
+
+}
+body {
+    line-height: 1.5;
+    font-size: 18px;
+    background-color: bisque;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+article img {
+    width: 400px;
+    
+}
+.heading {
+    font-size: 38px;
+    font-size: 600;
+    margin-bottom: 18px;
+    text-align: center;
+
+}
+.article p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.para {
+    padding: 0 36px;
+
+}
+.left {
+    float: left;
+}
+.aside {
+    width: 50%;
+}
+article {
+    width: 80%;
+    text-align: middle;
+}
