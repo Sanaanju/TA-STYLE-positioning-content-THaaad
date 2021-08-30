@@ -1,0 +1,93 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Assignment 2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="top">
+        <header class="header">
+            <div class="container">
+                <a class="logo" href="#">
+                    <img src="C:\Users\AHMED\Desktop\AltCampus\index.html\IMAGES\logo.png" alt="logo" width="80px" />
+                </a>
+                <nav class="nav">
+                    <a href="#">HOME</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">GALLERY</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <article class="article">
+                <dic class="container clearfix">
+                <div class="column article-column-left">
+                     <h1 class="article-heading">heading of article</h1>
+                     <p class="article-text">
+                        A goal is an idea of the future or desired 
+                        result that a person or a group of people envision,
+                         plan and commit to achieve. People endeavour to reach
+                         goals within a finite time by setting deadlines. 
+                         result that a person or a group of people envision,
+                         plan and commit to achieve. 
+                     </p>
+                </div>
+                <div class="column">
+                    <img class="article-image" src="C:\Users\AHMED\Desktop\AltCampus\index.html\IMAGES\goal.jpeg" alt="blog" >
+                </div>
+            </article>
+            <!-- GALLERY -->
+            <section class="gallery">
+                <div class="container clearfix">
+                    <div class="column-1-3">
+                     <img src="C:\Users\AHMED\Desktop\AltCampus\index.html\IMAGES\flower.jpg" alt="flower">   
+                    </div>
+                    <div class="column-1-3">
+                        <img src="C:\Users\AHMED\Desktop\AltCampus\index.html\IMAGES\laptop.jpg" alt="laptop">   
+                   </div>
+                       <div class="column-1-3">
+                        <img src="C:\Users\AHMED\Desktop\AltCampus\index.html\IMAGES\books.jpg" alt="boo1">   
+                     </div>
+                       <div class="column-1-3">
+                        <img src="C:\Users\AHMED\Desktop\AltCampus\index.html\IMAGES\laptop.jpg" alt="laptop1">   
+                      </div>
+                       <div class="column-1-3">
+                        <img src="C:\Users\AHMED\Desktop\AltCampus\index.html\IMAGES\flower.jpg" alt="flower1">   
+                      </div>
+                       <div class="column-1-3">
+                        <img src="C:\Users\AHMED\Desktop\AltCampus\index.html\IMAGES\flower.jpg" alt="flower2">   
+                      </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <nav>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </nav>
+            </div>
+        
+        </footer>
+        <a class="top-button" href="#top">
+            top
+        </a>
+    </body>
+</html>
